@@ -76,8 +76,9 @@ body{
 }
 
 .title-container {
-    margin-top:30px;
+    margin-top:10px;
     margin-bottom: 40px;    
+    justify-content: center;
 }
 
 h1{
@@ -85,7 +86,8 @@ h1{
     color: #fff;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 50px;
-    line-height: 40px;
+    line-height: 70px;
+
 }
 
 p{
@@ -95,6 +97,23 @@ p{
     line-height: 40px;
     margin-bottom: 30px;
     
+}
+
+.image-container{
+    max-width: 50px;
+    max-height: 50px;
+
+}
+
+#heroImage{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.184), rgba(0, 0, 0, 0)), url("../Assets/Images/hero-image-luis-gomes.jpeg");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+
+
 }
 
 .button{
