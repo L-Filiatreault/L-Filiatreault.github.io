@@ -14,8 +14,7 @@ html, body {
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+
     background-color: #111111;
     color:#829997;
     margin: 0;
@@ -23,6 +22,7 @@ body{
 
 .maincontainer{
 
+    
     width: 100%;
     min-height: 100%;
     
@@ -66,10 +66,11 @@ body{
 
 
 .mainsection-container{  
+   
     display: flex;
-    justify-content: center;
-    align-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #1e1e1f;
     margin-top: 10px;
     margin-left: 60px;
@@ -113,6 +114,40 @@ p{
     margin: 20px;
 }
 
+#aboutme{
+    
+    position: center;
+    width: 50%;
+    text-align: left;
+    border: 4px solid #829997;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 15px;
+   
+}
+
+#aboutme p{
+    text-align: left;   
+}
+
+
+#languages{  
+    flex: 1;
+    max-width: 700px; 
+    padding: 20px;
+    border: 4px solid #829997;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+#tools{    
+    max-width: 700px;
+    border: 4px solid #829997;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 15px;
+}
+
 a{
     color: rgb(250, 255, 212);
 }
@@ -141,11 +176,6 @@ a{
     align-content: center;
 
 }
-
-
-
-
-
 footer{
     background-color: #0c2628;
     display: grid;
