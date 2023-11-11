@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 html, body {
@@ -12,16 +13,16 @@ html, body {
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+ 
+    background-color: #0c2628;
+   
 }
 
 .maincontainer{
-    background-color: #0c2628;
-    color:#829997;
+  
+ 
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     
 }
 .navbar-container{
@@ -64,7 +65,7 @@ body{
 .mainsection-container{  
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: rgba(130,160, 200, 0.1); 
     margin-top: 10px;
@@ -80,20 +81,51 @@ body{
 
 h1{
     text-align: center;
-    color: #fff;
-    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(250, 255, 212);
     font-size: 50px;
     line-height: 40px;
+    margin: 10px;
     margin-bottom: 30px;
 }
 
 p{
     text-align: center;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
+    color:#eef6f5;
+    font-size: 17px;
     line-height: 40px;
-    margin-bottom: 10px;
+    margin: 20px;
     
+}
+
+a{
+    color: rgb(250, 255, 212);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+
+.projectTitle{
+    position: relative;
+    color:#eef6f5;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+
+}
+
+.projectDescriptions{
+    
+    max-width: 800px;
+    border: 4px solid #829997;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 15px;
+    position: center;
+    color: white, 0.5;
 }
 
 .button{
@@ -108,7 +140,6 @@ p{
     display: grid;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     font-weight: bold;
     background-color: #ddc966;
@@ -126,11 +157,9 @@ p{
 
 footer{
     background-color: #0c2628;
-    color:#829997;
     display: grid;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 15px;
+  
 }
 
