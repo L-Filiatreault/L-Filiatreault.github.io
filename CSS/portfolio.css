@@ -13,8 +13,8 @@ html, body {
 }
 
 body{
- 
-    background-color: #0c2628;
+    margin:0;
+    background-color: #111111; 
    
 }
 
@@ -25,11 +25,13 @@ body{
     min-height: 100%;
     
 }
+
 .navbar-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     max-height: fit-content;
+
 }
 
 .navlinks-container{
@@ -48,7 +50,7 @@ body{
 .navlinks-container a{   
     
     text-decoration: none;    
-    color: #ddc966;
+    color: #66c3dd;
     font-size: 30px;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: lighter;
@@ -58,16 +60,15 @@ body{
 
 } 
 .navlinks-container a:hover{
-    background-color: rgba(33, 60, 53, 0.7);  
+    background-color: rgba(58, 113, 166, 0.7);  
 }
 
 
 .mainsection-container{  
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgba(130,160, 200, 0.1); 
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    background-color: #1e1e1f;
     margin-top: 10px;
     margin-left: 60px;
     margin-right: 60px;
@@ -75,6 +76,9 @@ body{
 }
 
 .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top:30px;
     margin-bottom: 40px;    
 }
@@ -92,7 +96,7 @@ p{
     text-align: center;
     color:#eef6f5;
     font-size: 17px;
-    line-height: 40px;
+    line-height: 25px;
     margin: 20px;
     
 }
@@ -102,13 +106,13 @@ a{
 }
 
 img {
-    display: block;
+    display: flex;
     margin: 20px auto;
 }
 
 
 .projectTitle{
-    position: relative;
+    flex-direction: column;
     color:#eef6f5;
     font-size: 30px;
     text-align: center;
@@ -117,9 +121,9 @@ img {
 
 }
 
-.projectDescriptions{
-    
-    max-width: 800px;
+.section1, .section2, .section3{
+    flex: 1;
+ 
     border: 4px solid #829997;
     border-radius: 6px;
     margin: 10px;
@@ -127,6 +131,16 @@ img {
     position: center;
     color: white, 0.5;
 }
+
+/*.section{
+    flex: 1; 
+    border: 4px solid #829997;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 15px;
+    position: center;
+    color: white, 0.5;
+}*/
 
 .button{
     display: grid;
@@ -161,5 +175,17 @@ footer{
     justify-content: center;
     align-items: center;
   
+}
+
+
+@media(max-width:768px){
+    .mainsection-container{  
+        flex-direction: column;
+    }
+
+    .section1, .section2, .section3 {
+        flex: none; /* Reset the flex property for each section */
+    }
+
 }
 
