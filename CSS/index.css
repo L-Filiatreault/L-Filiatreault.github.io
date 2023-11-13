@@ -119,7 +119,7 @@ p{
     
     position: center;
     align-items: center;
-    width: 50%;
+    max-width: 700px; 
     text-align: left;
     border: 4px solid #829997;
     border-radius: 6px;
@@ -140,7 +140,6 @@ p{
 
 .icons-buttons img{
     width: 100px;
-
 }
 
 .resumeButton{
@@ -197,9 +196,29 @@ a{
 }
 
 footer{
-    background-color: #0c2628;
+    background-color: #111111;
     display: grid;
     justify-content: center;
     align-items: center;
   
+}
+
+
+@media(max-width:768px){
+    .mainsection-container{  
+        flex-direction: column;
+    }
+
+    #aboutme, #tools, #languages {
+        flex: none; /* Reset the flex property for each section */
+    }
+
+    p{
+        text-align: center;
+        font-size: 10px;
+        line-height: 12px;
+        margin: 10px;
+    }
+    
+
 }
