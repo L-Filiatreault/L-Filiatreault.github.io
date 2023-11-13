@@ -52,13 +52,14 @@ body{
     text-decoration: none;    
     color: #66c3dd;
     font-size: 30px;
-    font-family: 'Noto Sans JP', sans-serif;
+   
     font-weight: lighter;
     padding: 0.5em 1em;  
     border-radius: 6px;
     transition: background-color 900ms ease;
 
 } 
+
 .navlinks-container a:hover{
     background-color: rgba(58, 113, 166, 0.7);  
 }
@@ -173,8 +174,17 @@ p{
     padding: 15px;
 }
 
+#tools img{    
+    width: 100px;
+}
+
+#languages img{  
+    width: 100px;
+}
+
+
 a{
-    color: rgb(250, 255, 212);
+    color: rgb(251, 254, 228);
 }
 
 .image-container{
@@ -213,12 +223,36 @@ footer{
         flex: none; /* Reset the flex property for each section */
     }
 
+    #tools img, #languages img, .icons-buttons img{    
+        width: 50px;
+    }
+
+    h1, h3{
+        font-size: 1.5em;
+    }
+  
     p{
         text-align: center;
         font-size: 10px;
         line-height: 12px;
         margin: 10px;
     }
+
+    .navbar-container{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: fit-content;
+    }
+
+    .navlinks-container a{   
+
+        font-size: 1.5em;
+       
+        font-weight: lighter;
+        
+    
+    } 
     
 
 }
