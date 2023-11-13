@@ -132,12 +132,25 @@ p{
     text-align: left;   
 }
 
+.icons-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-buttons img{
+    width: 100px;
+
+}
+
 .resumeButton{
 
+    
     background-color: #66c3dd;
     color: #000;
     padding: 10px 20px;
     font: 20px;
+    margin: 50px;
     border-radius: 5px;
     cursor: pointer;
 
