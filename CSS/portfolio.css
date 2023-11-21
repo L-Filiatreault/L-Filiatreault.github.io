@@ -105,9 +105,10 @@ a{
     color: rgb(250, 255, 212);
 }
 
-img {
-    display: flex;
-    margin: 20px auto;
+.image-section-app img {
+ 
+    width: 30%;
+    height: auto;
 }
 
 
