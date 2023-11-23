@@ -26,6 +26,8 @@ body{
     min-height: 100%;
     
 }
+
+
 .navbar-container{
     display: flex;
     flex-direction: row;
@@ -47,7 +49,7 @@ body{
     
 }
 
- .navlinks-container a{   
+.navlinks-container a{   
     
     text-decoration: none;    
     color: #66c3dd;
@@ -78,7 +80,19 @@ body{
     padding: 2em 1em;
 }
 
-.title-container {
+.mainsection-container-portfolio{  
+   
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1e1e1f;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 2em 1em;
+}
+
+.title-container-homePage {
   
     position: absolute;
     top: 38%; 
@@ -88,13 +102,22 @@ body{
     transform: translateY(-30%);
 }
 
+
+.title-container-Portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:30px;
+    margin-bottom: 40px;    
+}
+
 h1{
     text-align: center;
-    color: #fff;
-    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(250, 255, 212);
     font-size: 50px;
-    line-height: 70px;
-
+    line-height: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
 }
 
 h3{
@@ -107,7 +130,6 @@ h3{
 }
 
 
-
 p{
     text-align: center;
     color:#eef6f5;
@@ -115,6 +137,31 @@ p{
     line-height: 25px;
     margin: 20px;
 }
+
+.portfolioSection{
+    flex: 1; 
+    border: 4px solid #829997;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 15px;
+    position: center;
+    color: white, 0.5;
+}
+
+.portfolioSection img{
+    justify-content: center;
+    width: 400px;    
+    height: auto;
+}
+
+
+.image-section-app img {
+ 
+    width: 30%;
+    height: auto;
+}
+
+
 
 #aboutme{
     
@@ -156,7 +203,6 @@ p{
 
 }
 
-
 #languages{  
     flex: 1;
     max-width: 700px; 
@@ -186,6 +232,7 @@ p{
 a{
     color: rgb(251, 254, 228);
 }
+
 
 .image-container{
     max-width: 50px;
@@ -253,6 +300,11 @@ footer{
         
     
     } 
+
+    img{    
+        width: 300px;
+    }
+
     
 
 }
