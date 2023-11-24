@@ -1,4 +1,4 @@
-# L-Filiatreault.github.io :girl:
+# L-Filiatreault.github.io 👩‍🎨:
 
 About:
 
