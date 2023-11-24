@@ -203,6 +203,18 @@ p{
 
 }
 
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profilePic{
+    
+    width: 30%;
+    height: auto;    
+    border-radius: 70%;
+}
+
 #languages{  
     flex: 1;
     max-width: 700px; 
@@ -293,12 +305,8 @@ footer{
     }
 
     .navlinks-container a{   
-
-        font-size: 1.5em;
-       
+        font-size: 1.5em;       
         font-weight: lighter;
-        
-    
     } 
 
     img{    
