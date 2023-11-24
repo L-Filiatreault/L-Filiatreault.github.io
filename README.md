@@ -1,4 +1,4 @@
-# L-Filiatreault.github.io
+# L-Filiatreault.github.io :girl:
 
 About:
 
@@ -12,7 +12,7 @@ This website was constructed over a period of 5 weeks, using elements I believe 
 
 ## How to Use:
 1) Enter the following website address into a browser of your choice: L-Filiatreault.github.io
-2) Press 'Enter' and you'll be redirected to my person website.
+2) Press 'Enter' and you'll be redirected to my persona/ website.
 
 
 **Technology Used:**
