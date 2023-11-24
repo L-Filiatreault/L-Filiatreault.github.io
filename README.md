@@ -1,4 +1,4 @@
-# L-Filiatreault.github.io 👩‍🎨:
+# L-Filiatreault.github.io 👱‍♀️
 
 About:
 
