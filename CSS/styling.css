@@ -336,9 +336,9 @@ footer{
     } 
 
     .burger-menu{
-        transition: 5s;
+        transition: 0.5s;
         display: block;
-        padding-left: 2em;
+        padding-left: 0.5em;
     }
 
     img{    
